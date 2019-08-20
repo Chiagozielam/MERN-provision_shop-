@@ -1,0 +1,14 @@
+.sidenav{
+  box-shadow: 1px 1px 25px rgb(163, 161, 161) !important;
+}
+.sideNavBtn{
+  background-color: var(--mainOrange);
+  padding: 5%;
+  width: 85%;
+  border-radius: 20px;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px;
+  font-weight: 600;
+  padding-left:12px;
+  width: 80%;
+}

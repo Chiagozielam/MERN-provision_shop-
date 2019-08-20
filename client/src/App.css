@@ -1,0 +1,146 @@
+
+:root{
+  --mainOrange: rgb(255, 81, 0);
+  --mainDark: #10171E;
+}
+
+
+.main-nav-fixed{
+  position: fixed;
+  z-index: 1000;
+  width: 100vw !important;
+  background-color: var(--mainDark);
+}
+.nav-link{
+  color: white !important;
+}
+.nav-link:hover{
+  color: red !important;
+}
+.nav-cart-btn{
+  margin-right: 2% !important;
+}
+.nav-bottom-space{
+  height: 60px;
+}
+.sidenav-links{
+  text-decoration: none !important;
+}
+.sidenav-btns{
+  background-color: var(--mainOrange);
+  padding: 5%;
+  width: 85%;
+  border-radius: 20px;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px;
+  font-weight: 600;
+  padding-left:12px;
+}
+#searchBar{
+  padding: 12px 20%;
+  margin-top: 2%;
+  border-radius: 15px
+
+}
+.searchIcon{
+  font-size: 40px;
+  color: white;
+  transition: all .2s;
+}
+.searchIcon:hover{
+  color: var(--mainOrange)
+}
+.searchBarContainer{
+  background-color: var(--mainOrange);
+  background-image: url('https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 3%;
+  width: 100%;
+  margin: 0 auto;
+}
+.mainSearchBox{
+  /* background-color: white; */
+  padding-left: 13% !important;
+}
+
+
+.main-box{
+  margin: 0, auto;
+}
+.card{
+  margin-top: 10px;
+}
+.product-btn{
+  color: white;
+  background-color: var(--mainDark);
+}
+.color{
+  background-color: pink;
+}
+.image{
+  max-height: 250px;
+}
+.details-img{
+  max-width: 90%;
+  margin-left: 30px;
+}
+.details-page{
+  margin-top: 5%;
+}
+
+.shadow{
+  box-shadow: 1px 1px 25px rgb(163, 161, 161) !important;
+}
+.side-nav{
+  position: fixed;
+}
+.link{
+  color: rgb(228, 228, 228) !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.responsive-cart-img{
+  width: 100%;
+}
+.cart-price-col{
+  color: red;
+  font-weight: bold;
+}
+.cart-gradient{
+  background: #757F9A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cart-val-padding{
+  padding-top: 3%;
+  color: white;
+}
+
+.pagination{
+  width: 50%;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+/* .cart-container{
+} */
+
+
+.cart-summary{
+  background-color: rgb(126, 126, 126);
+  height: 250px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 3%;
+
+}
+#cart-total-price{
+  margin-bottom: 1%;
+}
